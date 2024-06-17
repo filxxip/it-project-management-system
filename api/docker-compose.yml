@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: alexiej123/js-project:backend
+    ports:
+      - "5000:5000"
+      - "6379:6379"
+    environment:
+      - FLASK_ENV=development
+      - REDIS_HOST=localhost
+      - REDIS_PORT=6379

@@ -1,0 +1,12 @@
+Flask
+flask_cors
+flask_session
+redis
+SQLAlchemy
+snowflake-connector-python
+snowflake
+snowflake.core 
+snowflake._legacy
+snowflake-snowpark-python
+snowflake-sqlalchemy
+bcrypt

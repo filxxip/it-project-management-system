@@ -1,0 +1,1 @@
+DROP WAREHOUSE IF EXISTS {warehouse_name}
